@@ -1,12 +1,9 @@
 body {
 	font-family: 'Open Sans', sans-serif;
+	color: #2D3C49;
 	/* top | right | bottom | left */
 	padding: 1em 5% 1em 15%;
 	box-sizing: border-box;
-}
-
-h1 {
-	text-transform: uppercase;
 }
 
 /*
@@ -56,4 +53,38 @@ h1 {
 .landscape {
 	width: 100%;
 	height: 450px;
+	margin-top: 10px;
+}
+
+/*
+ * Heading above project tiles
+ */
+.project__heading {
+	color: #7D97AD;
+	margin-left: 10px;
+}
+
+/*
+ * Featured projects section
+ */
+.project__container {
+	display: flex;
+	justify-content: space-between;
+	flex-flow: row wrap;
+}
+
+.project__tile {
+	text-align: center;
+	width: 200px;
+	margin-bottom: 10px;
+}
+
+.project__tileimage {
+	width: 100%;
+	height: 150px;
+}
+
+.project__tiletitle {
+	text-transform: uppercase;
+	font-size: 25px;
 }
