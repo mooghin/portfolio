@@ -1,21 +1,16 @@
-body {
-	/* top | right | bottom | left */
-	padding: 1em 5% 1em 15%;
-}
-
 /*
  * Header
  */
 .header {
-	height: 100px;
+	height: 75px;
 }
 
 .header__logo {
-	height: 90%;
+	height: 100%;
 }
 
 .header__name {
-	font-size: 50px;
+	font-size: 38px;
 }
 
 .header__work {
@@ -23,12 +18,12 @@ body {
 }
 
  /*
- * "Landscape" image on front screen
+ 	* "Landscape" image on front screen
 	*/
 .landscape {
 	width: 100%;
 	height: auto;
-	margin-top: 10px;
+	margin-top: 5px;
 }
 
 /*
@@ -36,12 +31,19 @@ body {
  */
 .project__heading {
 	color: #7D97AD;
-	margin-left: 10px;
+	margin-top: 10px;
+	margin-bottom: 10px;
 }
 
 /*
  * Featured projects section
  */
+.project__container {
+	height: 40%;
+}
+
 .project__tile {
-	width: 32%;
+	width: 48%;
+	color: #2D3C49;
+	background-color: #ffe1fe;
 }

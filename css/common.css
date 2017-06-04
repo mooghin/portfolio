@@ -1,9 +1,11 @@
 body {
 	font-family: 'Open Sans', sans-serif;
 	color: #2D3C49;
-	/* top | right | bottom | left */
-	padding: 1em 5% 1em 15%;
 	box-sizing: border-box;
+}
+
+img {
+	object-fit: cover;
 }
 
 /*
@@ -12,12 +14,10 @@ body {
 .header {
 	display: flex;
 	width: 100%;
-	height: 100px;
 	justify-content: space-between;
 }
 
 .header__logo {
-	height: 90%;
 	width: auto;
 	order: 1;
 }
@@ -26,14 +26,6 @@ body {
 	order: 2;
 	text-transform: uppercase;
 	text-align: right;
-}
-
-.header__name {
-	font-size: 50px;
-}
-
-.header__work {
-	font-size: 20px;
 }
 
 /*
@@ -48,34 +40,17 @@ body {
  }
 
  /*
- 	* "Landscape" image on front screen
-	*/
-.landscape {
-	width: 100%;
-	height: auto;
-	margin-top: 10px;
-}
-
-/*
- * Heading above project tiles
- */
-.project__heading {
-	color: #7D97AD;
-	margin-left: 10px;
-}
-
-/*
  * Featured projects section
  */
 .project__container {
 	display: flex;
 	justify-content: space-between;
 	flex-flow: row wrap;
+	background-size: cover;
 }
 
 .project__tile {
 	text-align: center;
-	width: 25%;
 	margin-bottom: 10px;
 }
 
