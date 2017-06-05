@@ -37,12 +37,12 @@ a {
  * Divider
  */
  .divider {
-	 margin-top: 10px;
-	 margin-bottom: 10px;
-	 width: 100%;
-	 height: 3px;
-	 background-color: #7D97AD;
- }
+	margin-top: 10px;
+	margin-bottom: 10px;
+	width: 100%;
+	height: 3px;
+	background-color: #7D97AD;
+}
 
  /*
  * Featured projects section
@@ -55,6 +55,7 @@ a {
 }
 
 .project__tile {
+	display: inline-block;
 	text-align: center;
 	margin-bottom: 10px;
 }
