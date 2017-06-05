@@ -47,3 +47,8 @@
 	color: #2D3C49;
 	background-color: #ffe1fe;
 }
+
+.project__imagelink {
+	height: 250px;
+	width: auto;
+}

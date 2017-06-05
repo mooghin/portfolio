@@ -8,6 +8,11 @@ img {
 	object-fit: cover;
 }
 
+a {
+	display: block;
+	background-size: cover;
+}
+
 /*
  * Header
  */
