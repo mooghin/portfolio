@@ -8,9 +8,20 @@ img {
 	object-fit: cover;
 }
 
+.img-responsive {
+	height: 100%;
+	width: 100%;
+	max-height: 200px;
+    max-width: 100%;
+    display: block;
+    object-fit: cover;
+}
+
 a {
-	display: block;
-	background-size: cover;
+	display: inline-block;
+	width: 100%;
+	height: auto;
+	max-height: 200px;
 }
 
 /*
@@ -58,11 +69,6 @@ a {
 	display: inline-block;
 	text-align: center;
 	margin-bottom: 10px;
-}
-
-.project__tileimage {
-	width: 100%;
-	height: auto;
 }
 
 .project__tiletitle {

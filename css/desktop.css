@@ -27,6 +27,7 @@ body {
  */
 .landscape {
 	height: 250px;
+	width: 100%;
 	margin-top: 10px;
 }
 
@@ -43,9 +44,14 @@ body {
  */
 .project__tile {
 	width: 32%;
+	max-height: 250px;
 }
 
 .project__imagelink {
 	height: 250px;
 	width: auto;
+}
+
+.img-responsive {
+	max-height: 250px;
 }

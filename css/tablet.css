@@ -46,9 +46,18 @@
 	width: 48%;
 	color: #2D3C49;
 	background-color: #ffe1fe;
+	max-height: 325px;
 }
 
 .project__imagelink {
 	height: 250px;
 	width: auto;
+}
+
+.img-responsive {
+	max-height: 250px;
+}
+
+a {
+	max-height: 250px;
 }

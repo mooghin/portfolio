@@ -26,6 +26,11 @@
 	margin-top: 5px;
 }
 
+.img-responsive {
+	object-fit: contain;
+	max-height: 300px;
+}
+
 /*
  * Heading above project tiles
  */
@@ -38,12 +43,10 @@
 /*
  * Featured projects section
  */
-.project_container {
- 	height: 30%;
-}
 
 .project__tile {
 	width: 100%;
+	height: 30%;
 	color: #2D3C49;
 	background-color: #ffe1fe;
 }
@@ -51,4 +54,8 @@
 .project__imagelink {
 	height: 300px;
 	width: auto;
+}
+
+a {
+	max-height: 300px;
 }
